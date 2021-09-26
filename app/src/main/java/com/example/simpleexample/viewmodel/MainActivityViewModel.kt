@@ -17,6 +17,7 @@ class MainActivityViewModel : ViewModel() {
         recyclerListLiveData = MutableLiveData()
     }
 
+
     fun getRecyclerListObserver(): MutableLiveData<RecyclerListModel> {
         return recyclerListLiveData
     }
