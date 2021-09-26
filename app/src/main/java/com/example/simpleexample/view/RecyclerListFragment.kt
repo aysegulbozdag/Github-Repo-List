@@ -1,4 +1,4 @@
-package com.example.simpleexample
+package com.example.simpleexample.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,6 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.simpleexample.R
 import com.example.simpleexample.adapter.Adapter
 import com.example.simpleexample.model.RecyclerListModel
 import com.example.simpleexample.viewmodel.MainActivityViewModel

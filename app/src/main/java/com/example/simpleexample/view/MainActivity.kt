@@ -1,9 +1,10 @@
-package com.example.simpleexample
+package com.example.simpleexample.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.example.simpleexample.R
 import com.example.simpleexample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

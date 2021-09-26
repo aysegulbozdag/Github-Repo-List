@@ -6,7 +6,7 @@
 
 <!--        <variable-->
 <!--            name="ad"-->
-<!--            type="com.example.simpleexample.RecyclerListFragment" />-->
+<!--            type="com.example.simpleexample.view.RecyclerListFragment" />-->
 <!--    </data>-->
 
     <LinearLayout
