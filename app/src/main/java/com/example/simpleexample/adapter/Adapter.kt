@@ -3,6 +3,7 @@ package com.example.simpleexample.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -37,6 +38,11 @@ class Adapter(var context: Context) : RecyclerView.Adapter<Adapter.ItemHolder>()
             .load(url)
             .into(holder.view.imageThumb)
         // holder.view.listener = this
+
+
+        holder.view.rowLin.setOnClickListener {
+            Toast.makeText(context, "tıklanldı", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun getItemCount(): Int {
